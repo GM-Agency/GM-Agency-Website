@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="Images/image_1.png" type="image/x-icon">
+    <title>Book Your Free Consultation</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            background-color: #f8f8f8;
+        }
+
+        .container {
+            text-align: center;
+            max-width: 900px;
+            margin: 0 auto;
+        }
+
+        .highlight {
+            color: #cc8b3e;
+        }
+
+        .booking {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            margin-top: 20px;
+            background-color: #ffffff;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        .company-info {
+            display: flex;
+            align-items: center;
+            margin-bottom: 20px;
+        }
+
+        .logo {
+            width: 50px;
+            height: 50px;
+            margin-right: 10px;
+        }
+
+        .call-info ul {
+            list-style-type: none;
+            padding: 0;
+            text-align: left;
+        }
+
+        .call-info ul li {
+            margin-bottom: 10px;
+        }
+
+        .time-icon {
+            margin-right: 5px;
+        }
+
+        .calendly-inline-widget {
+            margin-top: 20px;
+            width: 100%;
+            height: 600px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Book your free <span class="highlight">consultation</span></h1>
+        <p>Learn how we help companies skyrocket productivity through custom automations.</p>
+
+            <!-- Calendly inline widget begin -->
+            <div class="calendly-inline-widget" data-url="https://calendly.com/gm-agency-ai/30min?primary_color=cc8b3e" style="min-width:320px;height:700px;"></div>
+            <script type="text/javascript" src="https://assets.calendly.com/assets/external/widget.js" async></script>
+            <!-- Calendly inline widget end -->
+        </div>
+    </div>
+</body>
+</html>
